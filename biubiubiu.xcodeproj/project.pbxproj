@@ -13,9 +13,17 @@
 		CF3C4A502D127DBB004A7A2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3C4A4F2D127DBB004A7A2F /* Preview Assets.xcassets */; };
 		CF3C4A562D127DBB004A7A2F /* biubiubiu Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CF3C4A552D127DBB004A7A2F /* biubiubiu Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CF3C4A5B2D127DBB004A7A2F /* biubiubiuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3C4A5A2D127DBB004A7A2F /* biubiubiuApp.swift */; };
-		CF3C4A5D2D127DBB004A7A2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3C4A5C2D127DBB004A7A2F /* ContentView.swift */; };
+		CF3C4A5D2D127DBB004A7A2F /* BiuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3C4A5C2D127DBB004A7A2F /* BiuView.swift */; };
 		CF3C4A5F2D127DBC004A7A2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3C4A5E2D127DBC004A7A2F /* Assets.xcassets */; };
 		CF3C4A622D127DBC004A7A2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3C4A612D127DBC004A7A2F /* Preview Assets.xcassets */; };
+		CF3C4A6F2D1280AC004A7A2F /* MotionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3C4A6E2D1280AC004A7A2F /* MotionController.swift */; };
+		CFB382BE2D132A24007D90B1 /* biubiubiu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CFB382BD2D132A24007D90B1 /* biubiubiu.mp3 */; };
+		CFB382C02D132BBE007D90B1 /* kaca.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CFB382BF2D132BBE007D90B1 /* kaca.mp3 */; };
+		CFB382C22D132F9C007D90B1 /* bong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CFB382C12D132F9C007D90B1 /* bong.mp3 */; };
+		CFB382C42D133251007D90B1 /* diu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CFB382C32D133251007D90B1 /* diu.mp3 */; };
+		CFB382C62D133265007D90B1 /* shui.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CFB382C52D133265007D90B1 /* shui.mp3 */; };
+		CFBD5DB12D13E63E009875AA /* FishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD5DB02D13E63E009875AA /* FishView.swift */; };
+		CFBD5DB32D13EDCA009875AA /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD5DB22D13EDCA009875AA /* SoundManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +58,17 @@
 		CF3C4A4F2D127DBB004A7A2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CF3C4A552D127DBB004A7A2F /* biubiubiu Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "biubiubiu Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF3C4A5A2D127DBB004A7A2F /* biubiubiuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = biubiubiuApp.swift; sourceTree = "<group>"; };
-		CF3C4A5C2D127DBB004A7A2F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF3C4A5C2D127DBB004A7A2F /* BiuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiuView.swift; sourceTree = "<group>"; };
 		CF3C4A5E2D127DBC004A7A2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF3C4A612D127DBC004A7A2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF3C4A6E2D1280AC004A7A2F /* MotionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionController.swift; sourceTree = "<group>"; };
+		CFB382BD2D132A24007D90B1 /* biubiubiu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = biubiubiu.mp3; sourceTree = "<group>"; };
+		CFB382BF2D132BBE007D90B1 /* kaca.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kaca.mp3; sourceTree = "<group>"; };
+		CFB382C12D132F9C007D90B1 /* bong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bong.mp3; sourceTree = "<group>"; };
+		CFB382C32D133251007D90B1 /* diu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = diu.mp3; sourceTree = "<group>"; };
+		CFB382C52D133265007D90B1 /* shui.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shui.mp3; sourceTree = "<group>"; };
+		CFBD5DB02D13E63E009875AA /* FishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishView.swift; sourceTree = "<group>"; };
+		CFBD5DB22D13EDCA009875AA /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,10 +129,14 @@
 		CF3C4A592D127DBB004A7A2F /* biubiubiu Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				CF3C4A5A2D127DBB004A7A2F /* biubiubiuApp.swift */,
-				CF3C4A5C2D127DBB004A7A2F /* ContentView.swift */,
+				CFB382BC2D1329C6007D90B1 /* sound */,
 				CF3C4A5E2D127DBC004A7A2F /* Assets.xcassets */,
 				CF3C4A602D127DBC004A7A2F /* Preview Content */,
+				CF3C4A5A2D127DBB004A7A2F /* biubiubiuApp.swift */,
+				CFBD5DB02D13E63E009875AA /* FishView.swift */,
+				CF3C4A5C2D127DBB004A7A2F /* BiuView.swift */,
+				CFBD5DB22D13EDCA009875AA /* SoundManager.swift */,
+				CF3C4A6E2D1280AC004A7A2F /* MotionController.swift */,
 			);
 			path = "biubiubiu Watch App";
 			sourceTree = "<group>";
@@ -127,6 +147,18 @@
 				CF3C4A612D127DBC004A7A2F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFB382BC2D1329C6007D90B1 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				CFB382C52D133265007D90B1 /* shui.mp3 */,
+				CFB382C32D133251007D90B1 /* diu.mp3 */,
+				CFB382C12D132F9C007D90B1 /* bong.mp3 */,
+				CFB382BF2D132BBE007D90B1 /* kaca.mp3 */,
+				CFB382BD2D132A24007D90B1 /* biubiubiu.mp3 */,
+			);
+			path = sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +251,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFB382C42D133251007D90B1 /* diu.mp3 in Resources */,
+				CFB382C02D132BBE007D90B1 /* kaca.mp3 in Resources */,
 				CF3C4A622D127DBC004A7A2F /* Preview Assets.xcassets in Resources */,
 				CF3C4A5F2D127DBC004A7A2F /* Assets.xcassets in Resources */,
+				CFB382C62D133265007D90B1 /* shui.mp3 in Resources */,
+				CFB382C22D132F9C007D90B1 /* bong.mp3 in Resources */,
+				CFB382BE2D132A24007D90B1 /* biubiubiu.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF3C4A5D2D127DBB004A7A2F /* ContentView.swift in Sources */,
+				CF3C4A5D2D127DBB004A7A2F /* BiuView.swift in Sources */,
+				CFBD5DB12D13E63E009875AA /* FishView.swift in Sources */,
 				CF3C4A5B2D127DBB004A7A2F /* biubiubiuApp.swift in Sources */,
+				CF3C4A6F2D1280AC004A7A2F /* MotionController.swift in Sources */,
+				CFBD5DB32D13EDCA009875AA /* SoundManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,7 +489,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -482,7 +522,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
